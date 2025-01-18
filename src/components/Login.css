@@ -1,0 +1,66 @@
+
+
+.container2 {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 40px; /* Padding inside the container */
+    font-family: 'Arial', sans-serif; /* Use a clean, readable font */
+    background-color: #f4f7f8; /* Light background for contrast */
+    color: #333; /* Dark text color for readability */
+   margin: 100px;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size for the heading */
+    color: #007bff; /* Primary color for the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light border around inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for input text */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* White text color for buttons */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.register-box {
+    text-align: center; /* Center text in register box */
+    margin-top: 20px; /* Space above the register box */
+}
+
+p {
+    margin-top: 10px;
+}
